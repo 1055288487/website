@@ -1,0 +1,39 @@
+{
+  "name": "portal_site",
+  "version": "1.0.0",
+  "description": "云盘专题网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.wswin.cn/skydriver/portal_site.git"
+  },
+  "author": "gzh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "@types/koa": "^2.0.44",
+    "@types/koa-basic-auth": "^2.0.3",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.27",
+    "@types/node": "^8.9.3",
+    "tslint": "^5.7.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/mongodb": "^2.2.15",
+    "debug": "^3.1.0",
+    "generic-pool": "^3.4.2",
+    "koa": "^2.4.1",
+    "koa-basic-auth": "^2.0.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-ejs": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-static-plus": "^0.1.1",
+    "koa-static-server": "^1.3.4",
+    "mongodb": "^2.2.33"
+  }
+}
